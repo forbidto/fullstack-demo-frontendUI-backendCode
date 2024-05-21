@@ -1,0 +1,4538 @@
+/* HOME HEADER STYLE */
+
+.main {
+  margin: 1% 6%;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 1% 5% 0% 5%;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.home-top-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-user-info {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.home-user-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 5%;
+  border: 1px solid;
+}
+
+.home-user-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.home-user-info-gp {
+  flex-direction: column;
+}
+
+.home-user-menu {
+  position: absolute;
+  /* Absolutely position relative to the nearest positioned ancestor */
+  top: 100%;
+  /* Position it right below the button */
+  left: 60%;
+  transform: translateX(-50%);
+  /* Shift it back by its own half-width */
+  /* Or any other background */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* Optional shadow for a dropdown effect */
+  z-index: 1;
+  /* Ensure it's on top of other elements */
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1% 0;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.home-user-notification-menu {
+  position: absolute;
+  /* Absolutely position relative to the nearest positioned ancestor */
+  top: 100%;
+  /* Position it right below the button */
+  left: 30%;
+  transform: translateX(-50%);
+  /* Shift it back by its own half-width */
+  /* Or any other background */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* Optional shadow for a dropdown effect */
+  z-index: 1;
+  /* Ensure it's on top of other elements */
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 10px;
+  width: 180px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.home-user-menu a {
+  padding: 8px 16px;
+  /* Padding for each link */
+  text-decoration: none;
+  display: block;
+  /* Stack them vertically */
+  color: black;
+  /* Text color */
+}
+
+.home-user-menu a:hover {
+  background-color: #ddd;
+  /* Hover effect */
+}
+
+/* HOME NAVBAR STYLE */
+
+.nav-bar {
+  margin-top: 1%;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0% 5% 0% 5%;
+}
+
+.nav-bar-button-row {
+  flex-direction: row;
+  align-content: center;
+}
+
+
+.nav-bar-menu {
+  display: none
+}
+
+
+
+.nav-bar-switch-button {
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 3%;
+
+}
+
+.nav-bar-arrow {
+  color: #e3163f;
+  size: 14px;
+}
+
+.nav-bar-button {
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+/* MAP STYLE */
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 50px;
+}
+
+
+/* SEARH BAR STYLE */
+
+.search-bar {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+}
+
+.search-region-button {
+  margin: 0 !important;
+  font-size: 12px;
+  padding: 6px 14px;
+}
+
+.check-box-field {
+  justify-content: center;
+  position: relative;
+}
+
+.district-checkbox-card {
+  width: 600px;
+  margin-top: 3px;
+  border-radius: 1%;
+  position: absolute;
+  /* Absolutely position relative to the nearest positioned ancestor */
+  top: 100%;
+  /* Position it right below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  /* Shift it back by its own half-width */
+  /* Or any other background */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* Optional shadow for a dropdown effect */
+  z-index: 1;
+}
+
+
+.search-region-fieldset {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 580px;
+  max-height: auto;
+  justify-content: left;
+  border-radius: 15px;
+  font-size: 12px;
+
+}
+
+.search-region-checkbox {
+  font-size: 12px;
+}
+
+.search-input {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 !important;
+  padding: 5px;
+  width: 400px;
+}
+
+.search-button {
+  padding: 10px 12px;
+  color: white;
+  background-color: #ff471a;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* FILTER BAR STYLE NORMAL WINDOW*/
+
+.filter-bar {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3% 1% 2% 1%;
+  position: relative;
+  padding: 0% 5% 0% 5%;
+}
+
+
+.filter-button-save {
+  border-radius: 20%;
+  padding: 8px;
+}
+
+.filter-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.filter-button-icon {
+  margin-left: 8px;
+}
+
+.filter-button-card-div {
+  position: relative;
+}
+
+.filter-checkbox-card {
+  width: 100px;
+  padding: 5px;
+  margin-top: 3px;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+.filter-range-card {
+  width: 320px;
+  height: 120px;
+  padding: 8px 40px;
+  margin-top: 3px;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+
+.filter-checkbox-gp {
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.filter-checkbox-content {
+  font-size: 12px;
+}
+
+.filter-range-gp {
+  align-content: center;
+}
+
+.filter-range-gp>div {
+  margin-bottom: 2px;
+  /* Adjust the margin as needed */
+}
+
+.filter-range-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.filter-input-range-container {
+  display: flex;
+  flex-direction: row;
+  /* Adjust the spacing as needed */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  height: 30px
+}
+
+.filter-input-field {
+  width: 100px;
+  height: 24px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.MuiSlider-root .MuiSlider-thumb {
+  width: 10px;
+  height: 10px
+}
+
+
+
+.filter-action-save {
+  border: 0;
+  font-size: 12px;
+  padding: 6px 8px;
+}
+
+.filter-menu {
+  display: none !important;
+}
+
+.display-style-gp {
+  width: 105px;
+}
+
+.display-format {
+  gap: 0;
+}
+
+.display-style {
+  border: 0;
+  padding: 8px
+}
+
+.sort-button {
+  padding: 5px;
+  z-index: 2;
+}
+
+.sort-menu {
+  display: flex !important;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.sort-menu-card {
+  margin-top: 2px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  top: 100%;
+  padding: 8px 3px;
+
+}
+
+.sort-menu-card-content {
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+  gap: 0;
+}
+
+.sort-menu-item {
+  padding: 5px 0;
+}
+
+.sort-menu-item:hover {
+  background-color: #dddddd81;
+  cursor: pointer;
+}
+
+
+
+
+/* LISTING COLLECTION STYLE */
+
+
+
+.list-collection-number {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10%;
+
+}
+
+.list-card-collection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid-window {
+  width: 100%;
+  position: relative;
+  padding: 0% 5% 0% 5%;
+  overflow: hidden;
+}
+
+.listing-grid-window-pc {
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+
+.listing-grid-window-pad-large {
+  display: none;
+}
+
+.listing-grid-window-pad {
+  display: none;
+}
+
+.listing-grid-window-mobile {
+  display: none;
+}
+
+
+/* LISTING CARD STYLE */
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-card {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.list-card-info {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.list-card-info-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
+  font-weight: 800;
+  margin-left: 5%;
+}
+
+.list-card-floor {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.list-card-info-brief {
+  flex-direction: row;
+  width: 100%;
+  gap: 2vw;
+  margin: 0 5% 0 5%;
+}
+
+.list-card-info-brief-item {
+  align-items: center;
+  gap: 4px;
+}
+
+.list-card-info-brief-item-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+
+.list-card-info-price {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #CC0000;
+  margin-left: 5%;
+}
+
+.list-card-info-price-fleet {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+.list-card-info-remark {
+  width: 90%;
+  margin-left: 4%;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.list-card-info-remark-gp {
+  flex-direction: column;
+  gap: 6px;
+}
+
+.list-card-info-rate {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  border-radius: 5px;
+  background-color: #FF6600;
+  gap: 3px;
+  width: 60px;
+}
+
+.list-card-info-like {
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 8px;
+  align-items: center;
+}
+
+.list-card-info-heart {
+  color: #ab3b57;
+}
+
+.list-card-ads-info {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 3px;
+}
+
+.list-card-ads-info-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+/* LISTING ROW DISPLAY STYLE */
+
+.list_row_display_gp {
+  margin: 30px 5vw 60px 5vw;
+}
+
+
+.list-table-row {
+  width: 100%;
+  background-color: white;
+  direction: row;
+  border: 1px solid rgb(241, 240, 240);
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 5px;
+}
+
+.list-table-row-cell {
+  width: 8%;
+  background-color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.list-table-estate-width {
+  width: 23%;
+}
+
+.list-table-body-cell-estate {
+  width: 23%;
+  font-size: 12px;
+  height: auto;
+
+}
+
+.list-table-body-cell-estate>div {
+  margin-bottom: 5px;
+}
+
+
+.list-table-price-width {
+  width: 14.5%
+}
+
+.list-row-price-change-header-gp {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 8%;
+  gap: 3px;
+  font-size: 12px;
+}
+
+
+.row-display-list-name-tag {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 400;
+  gap: 10px
+}
+
+.list-table-row-badge {
+  font-size: 11px;
+}
+
+
+
+/* FAVOURITE LIST STYLE */
+
+.fav-list {
+  flex-direction: column;
+  margin: 3% 0;
+  padding: 0% 5% 0% 5%;
+}
+
+.fav-list-header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fav-list-header-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.fav-list-header-more {
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.fav-list-collection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+
+/* FOOTER STYLE */
+
+
+.footer-gp {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-info {
+  background-color: #f2f2f2;
+  height: 140px;
+  justify-content: center;
+}
+
+.footer-info-button {
+  border: 0;
+  height: 50px;
+  margin: 45px 10px;
+}
+
+.footer-info-end {
+  flex-direction: row;
+
+}
+
+.footer-end {
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-end-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+
+.footer-end-button {
+  border: 0;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* LISTING DETAIL PAGE STYLE */
+
+
+/* LISTING DETAIL GROUP STYLE */
+.list-detail-group {
+  display: flex;
+  margin: 1% 8% 2% 8%;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 10px;
+}
+
+
+/* LISTING DETAIL LEFT GROUP STYLE */
+
+.list-detail-left-group {
+  flex-direction: column;
+  width: 55vw;
+  height: auto;
+}
+
+.listing-back-button-gp {
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listing-back-button {
+  padding: 0;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.listing-back-button:hover {
+  background-color: #f2f2f2;
+}
+
+
+.list-detail-info-gp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 30px;
+}
+
+.list-detail-info-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+
+.list-detail-info-price-gp {
+  flex-direction: row;
+  gap: 20px;
+}
+
+.list-detail-info-price {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #CC0000;
+}
+
+.list-detail-brief-info-gp {
+  flex-direction: row;
+  gap: 60px
+}
+
+
+.list-detail-brief-info-item-title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+
+.list-detail-brief-info-item {
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.list-detail-unit-info-gp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgrey;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.list-detail-unit-info-header {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.list-detail-unit-info-item-gp {
+  flex-direction: row;
+  gap: 8%;
+}
+
+.list-detail-unit-info-item-title {
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 300;
+  gap: 20px;
+}
+
+.list-detail-unit-info-item-detail {
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+.list-detail-unit-info-item-detail-list {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-detail-historical-record-gp {
+  margin: 20px 0;
+  width: 50VW;
+}
+
+.list-detail-historical-record-table {
+  margin-top: 20px;
+  width: 50VW;
+  font-size: 16px;
+}
+
+.list-detail-historical-record-table-head {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+
+
+.historical-record-change-gp {
+  color: #CC0000;
+}
+
+.historical-record-change-row {
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+
+/* LISTING DETAIL RIGHT GROUP STYLE */
+
+.list-detail-right-group {
+  flex-direction: column;
+  width: 30vw;
+  gap: 20px;
+}
+
+
+
+.listing-detail-view-like-gp {
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 6px;
+  margin: 1% auto;
+}
+
+
+
+.list-detail-image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: auto;
+  gap: 4px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.list-detail-image-grid-item {
+  width: 100px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.list-detail-image-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.list-detail-map {
+  width: 450px;
+  height: 360px;
+  align-content: center;
+}
+
+
+.list-detail-seller-card {
+  margin: 2% auto;
+  height: auto;
+  border-radius: 15px;
+  width: 260px;
+  padding: auto;
+}
+
+.list-detail-seller-info-gp {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-detail-seller-info {
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-detail-seller-info img {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.list-detail-seller-info-button-gp {
+  flex-direction: row;
+  gap: 30px
+}
+
+
+.list-detail-seller-info-button-appointment {
+  background-color: #ff471a;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  border: 0;
+  width: 100px;
+  height: 30px;
+}
+
+.list-detail-seller-info-button-contact {
+  background-color: #FFD700;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  border: 0;
+  width: 100px;
+  height: 30px;
+
+}
+
+.list-mortgage-chart-container {
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-mortgage-chart-card {
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.list-mortgage-chart-result-gp {
+  flex-direction: row;
+}
+
+.list-mortgage-option-chart-gp {
+  flex-direction: row;
+  gap: 5px
+}
+
+.list-mortgage-cal-option {
+  flex-direction: column;
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.list-mortgage-cal-item {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list-mortgage-cal-item-price-gp {
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-mortgage-cal-item-short-input {
+  width: 100px;
+  text-align: center;
+}
+
+.list-mortgage-cal-item-mid-input {
+  width: 180px;
+  text-align: center;
+}
+
+.list-mortgage-cal-item-long-input {
+  width: 250px;
+  text-align: center;
+}
+
+.list-mortgage-cal-checkbox-gp {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-mortgage-chart {
+  width: 400px;
+}
+
+.list-mortgage-cal-result-gp {
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.list-mortgage-cal-result-item {
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #ff471a;
+}
+
+
+.list-mortgage-cal-remark {
+  flex-wrap: wrap;
+  font-size: 12px;
+  width: 50%;
+}
+
+
+/* MY LISTING DETAIL STYLE */
+
+.my-list-detail-status-badge {
+  size: small;
+}
+
+.my-list-detail-expire-date {
+  font-size: 14px;
+}
+
+.my-list-detail-edit-button {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+
+.my-list-detail-status-edit-gp {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-list-detail-status-gp {
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin: 2% 0 1% 2%;
+
+}
+
+.button-edit-option-gp {
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.edit-price-image-gp {
+  position: relative;
+  gap: 10px;
+}
+
+.edit-price-input {
+  width: 230px;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+}
+
+.edit-image-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: auto;
+  gap: 4px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.edit-image-grid-item {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.edit-list-item-button {}
+
+.edit-image-grid-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.edit-image-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(165, 163, 163, 0);
+  /* You can set the background color you want */
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-image-grid-item:hover .edit-image-overlay {
+  display: flex;
+  /* Show the overlay when the parent is hovered */
+}
+
+.edit-photo-upload {
+  width: 45vw;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.edit-ads-item-gp>* {
+  margin-bottom: 10px;
+}
+
+.edit-list-confirm-button-gp {
+  margin-top: 20px;
+  justify-content: flex-end
+}
+
+
+.edit-status-modal {
+  background: #fff;
+  padding: 20px;
+  width: 320px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  max-height: 85vh;
+  overflow-y: auto;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edit-status-modal-content {
+  flex-direction: column;
+  padding: auto;
+  text-align: center;
+}
+
+.edit-status-modal-button-gp {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edit-status-modal-button {
+  size: small;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+
+
+.list-detail-owner-gp {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.list-detail-owner-header {
+  font-size: 16px;
+}
+
+.list-detail-owner-info {
+  width: 240px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+/* HISTORICAL RECORD STYLE */
+
+
+/* MY LISTING PAGE STYLE */
+
+.my-listing-page-gp {
+  flex-direction: column;
+  padding: 0% 5% 0% 5%;
+}
+
+.my-listing-page-header {
+  margin-top: 30px;
+}
+
+.my-listing-page-sub-heading {
+  font-size: 14px;
+}
+
+.my-listing-status-button-gp {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.my-listing-table-gp {
+  margin: 20px 10px 50px 10px;
+}
+
+.my-list-table-head {
+  font-size: 14px;
+}
+
+.my-listing-table-mobile-container {
+  display: none;
+}
+
+
+/* CHAT PAGE STYLE */
+
+/* MESSENGER GROUP STYLE */
+
+.messenger-gp {
+  flex-direction: row;
+  margin: 3% 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-height: 1000px;
+  gap: 10px;
+}
+
+.messenger-gp-mobile {
+  display: none;
+}
+
+
+/* CHAT CONTACT LIST STYLE */
+
+.chat-list-card {
+  width: 24vw;
+  border-radius: 20px;
+
+}
+
+.chat-search {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.chat-list-item-gp {
+  width: 20vw;
+  border: 0px solid black;
+  height: 80px;
+  margin: 5px auto;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chat-list-item-gp:hover {
+  background-color: #FF6600;
+}
+
+.chat-list-item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 10px 4px 10px 12px;
+}
+
+.chat-list-item-info-gp {
+  flex-direction: column;
+  width: 60%;
+  gap: 0;
+  padding: 8px 0;
+}
+
+.chat-list-item-content-gp {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 4px 0 4px;
+}
+
+
+
+
+
+
+/* CHAT MAIN CARD STYLE */
+
+.chat-message-board-card {
+  width: 45vw;
+  border-radius: 20px;
+}
+
+
+/* CHAT RECEIVER INFO STYLE */
+
+.chat-receiver-info {
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.chat-receiver-info-name-gp {
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-assist-question-button {
+  padding: 10px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.chat-assist-question-button:hover {
+  background-color: #FF6600;
+}
+
+.chat-assist-question-button:focus {
+  background-color: white;
+}
+
+
+/* CHAT QUESTION SUPPORT MODAL STYLE */
+
+.chat-assistance-modal {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  height: 600px;
+  overflow-y: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.chat-assist-question-gp {
+  flex-direction: column;
+  padding: 10px 6%;
+  gap: 12px;
+}
+
+.chat-assist-question-head {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff471a;
+  text-align: center;
+}
+
+.chat-assist-question-item-button {
+  font-size: 14px;
+  border: 1px solid #ff471a;
+  color: #ff471a;
+  border-radius: 15px;
+  width: 320px;
+}
+
+
+
+/* CHAT MESSAGE BOARD STYLE */
+
+.chat-message-board {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid lightgray;
+  height: 80%;
+  border-radius: 15px;
+
+}
+
+.chat-message-notice {
+  font-size: 12px;
+  background-color: #f2f2f2;
+  height: 12%;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 1% 10% 8% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.chat-message-text-gp {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.chat-message-receiver-text-box {
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+  gap: 10px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 6px 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  max-width: 60%;
+  height: auto;
+}
+
+.chat-message-board-receiver-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.chat-message-my-text-div {
+  justify-content: flex-end;
+}
+
+.chat-message-my-text-box {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 6px 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  max-width: 60%;
+  height: auto;
+}
+
+.chat-message-my-offer-box {
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 6px 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  max-width: 60%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+
+/* MESSAGE SEND SECTION */
+
+.chat-message-send-section {
+  flex-direction: row;
+  margin: 5% 0;
+  gap: 5px;
+}
+
+.message-send-add-file-button {
+  border: 0;
+  padding: 2%;
+}
+
+/* CHAT PROPERTY STYLE */
+
+.chat-property-info-card {
+  width: 20vw;
+  border-radius: 20px;
+}
+
+.chat-property-gp {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chat-property-image {
+  height: 200px;
+  border-radius: 15px;
+}
+
+.chat-property-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chat-property-brief {
+  font-size: 14px;
+}
+
+.chat-property-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #CC0000;
+}
+
+.chat-property-appointment-button {
+  width: 100%;
+  color: #3399ff;
+  border: 1px solid #3399ff;
+}
+
+.chat-property-offer-button {
+  width: 100%;
+  color: #ff471a;
+  border: 1px solid #ff471a;
+}
+
+
+
+/* CHAT APPOINTMENT STYLE */
+
+.chat-make-appointment-modal {
+  background: #fff;
+  padding: 30px;
+  width: 80vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.chat-make-appointment-gp {
+  flex-direction: column;
+  padding: 3% 5%;
+}
+
+.chat-make-appointment-head {
+  color: #3399ff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.chat-make-appointment-button-gp {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 25%;
+  font-size: 14px;
+}
+
+.chat-make-appointment-button-accept {
+  background-color: #FF6600;
+  color: white;
+}
+
+
+
+
+.amplify-checkbox__icon {
+  background-color: #FF6600;
+  border-color: black;
+}
+
+
+/* PRE-OFFER NOTICE STYLE */
+
+
+.chat-pre-offer-modal {
+  background: #fff;
+  padding: 30px;
+  width: 80vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.chat-pre-offer-notice-gp {
+  flex-direction: column;
+}
+
+.chat-pre-offer-notice-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chat-pre-offer-notice-row {
+  flex-direction: row;
+}
+
+.chat-pre-offer-notice-card {
+  width: 400px;
+  height: 220px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.chat-pre-offer-notice-content-title {
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.chat-pre-offer-notice-content-title-number {
+  border: 2px solid;
+  padding: 2px 6px;
+}
+
+.chat-pre-offer-notice-content {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
+.chat-pre-offer-notice-content-remark {
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.chat-pre-offer-notice-remark {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.chat-pre-offer-notice-button-gp {
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+
+.chat-pre-offer-notice-button-accept {
+  background-color: #FF6600;
+  color: white;
+}
+
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  width: 80vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+
+
+/* OFFER FORM STYLE */
+
+
+.chat-offer-modal {
+  background: #fff;
+  padding: 30px;
+  width: 80vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.chat-offer-gp {
+  flex-direction: column;
+  padding: 0 7%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 40px;
+}
+
+.chat-offer-heading {
+  font-size: 30px;
+  font-weight: 800;
+  color: #FF6600;
+  ;
+}
+
+.chat-offer-item-gp {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chat-offer-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chat-offer-toggle-button-gp {
+  gap: 20px;
+}
+
+.chat-offer-toggle-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.chat-offer-counter-price-input {
+  margin-top: 10px;
+  width: 300px;
+}
+
+.chat-offer-remark {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.chat-offer-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.chat-offer-other-input {
+  width: 100px;
+}
+
+
+/* 
+OFFER CREDIT CARD STYLE */
+
+.chat-offer-credit-card-gp {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.chat-offer-credit-card-head {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.chat-offer-credit-card-info-gp {
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  gap: 50px
+}
+
+.chat-offer-credit-card-info {
+  flex-direction: column;
+}
+
+.chat-offer-credit-card-input {
+  width: 300px;
+}
+
+
+
+/* PRE SELL HOUSE FORM STYLE */
+
+.pre-sell-house-form {
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 20px;
+}
+
+.pre-sell-house-form-head {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.pre-sell-house-form-remark {
+  margin: 0 20px;
+  font-size: 13px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.pre-sell-house-form-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  padding: 60px;
+  margin: 0 10% 2% 10%;
+  font-weight: 600;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.pre-sell-house-form-content>div {
+  margin-bottom: 8px;
+}
+
+.confirm-presell-form-div {
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.agree-presell-form-button {
+  background-color: #FF6600;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  border-radius: 15px;
+  width: 240px;
+}
+
+/* BUY HOUSE FORM FILL */
+
+.buy-form-fill-input-container {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.buy-form-fill-input-title-gp {
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+}
+
+.buy-form-fill-input-star {
+  font-size: 12px;
+  color: red;
+}
+
+.buy-form-fill-input-remark {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.buy-form-table-container {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+
+.buy-form-table-gp {
+  width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.buy-form-table-header {
+  text-align: center;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.buy-form-table-cell-content {
+  font-size: 12px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+/* SELL HOUSE FORM FILL STYLE */
+
+.sell-house-form-fill {
+  flex-direction: column;
+  padding: 3% 5%;
+  font-size: 12px;
+}
+
+.sell-house-formfill-head {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin-bottom: 3vh;
+}
+
+
+.sell-house-formfill-item-div {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sell-house-form-district-button-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sell-house-form-button {
+  font-size: 12px;
+}
+
+
+.sell-house-formfill-main-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sell-house-formfill-sub-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+
+.photo-upload {
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* other styles if needed */
+}
+
+
+.photo-preview-gp {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: auto;
+  ;
+  gap: 4px;
+  overflow: hidden;
+}
+
+.photo-upload-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.photo-browse-button {
+  margin-top: 2%;
+  font-weight: 500;
+  color: gray;
+  border-radius: 5%;
+
+}
+
+.photo-upload-cancel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-fill-owner-title-gp {
+  flex-direction: row;
+  align-items: center;
+}
+
+.sell-house-formfill-price-input {
+  width: 270px
+}
+
+
+.sell-house-formfill-individual-owner-gp {
+  align-items: center;
+}
+
+.sell-house-form-owner-remove-button {
+  width: 60px;
+  height: 40px;
+  padding: 8px
+}
+
+.sell-house-formfill-company-owner-div {
+  flex-direction: row;
+  margin: 8px 0 8px 0;
+  align-items: center;
+}
+
+.sell-house-form-remove-button {
+  font-size: 12px;
+}
+
+
+.form3-error-message {
+  flex-direction: column;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #CC0000;
+  margin: 1% 0;
+}
+
+
+
+/* SELL HOUSE FORM 3 TEMPLATE STYLE */
+
+
+.sell-house-form-template {
+  flex-direction: column;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.sell-house-form-template-head {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+
+.sell-house-form-template-content-card {
+  font-size: 14px;
+  padding: 3%;
+  margin: 0 10% 2% 10%;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+sub {
+  font-size: 10px;
+  /* Adjust the font size as needed */
+  vertical-align: text-top;
+  /* Optional: Adjusts the vertical position */
+}
+
+.sell-house-form-template-notice {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.sell-house-form-template-content-title {
+  flex-direction: row;
+  margin: 10px 0;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.sell-house-form-template-content-title-notice {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 3px;
+
+}
+
+.sell-house-form-template-content-appointment {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.sell-house-form-template-content {
+  margin: 10px 0;
+  flex-direction: "row";
+}
+
+.sell-house-form-template-content-specified {
+  color: #e3163f;
+  margin: 10px 0;
+}
+
+.sell-house-form-template-radio-option-gp {
+  margin: 10px 0;
+  flex-direction: row;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.sell-house-form-template-content-option-item {
+  margin: 10px 0;
+  flex-direction: "row";
+  gap: 5px;
+}
+
+
+.sell-house-form-template-sign-info-gp {
+  flex-direction: row;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.sell-house-form-template-owner-gp {
+  flex-direction: column;
+  margin: 0 3%;
+  width: 40%;
+}
+
+.sell-house-form-template-mars-gp {
+  flex-direction: column;
+  width: 40%;
+  margin: 0 3%;
+}
+
+.sell-house-form-template-mars-signature-space {
+  margin-bottom: 50px;
+}
+
+.sell-house-form-template-addition-gp {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.sell-house-form-template-addition-title {
+  margin: 20px 0;
+  text-align: center;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 2px;
+}
+
+.sell-house-form-template-addition-content {
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 4px;
+}
+
+.sell-house-form-template-button-gp {
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+
+/* SELL FORM SIGN STYLE */
+
+
+
+.sell-house-form-sign-gp {
+  flex-direction: column;
+  margin: 30px 0;
+  padding: 0 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sell-house-form-sign-card {
+  width: 90%;
+  height: 200px;
+  padding: 20px
+}
+
+.sell-house-form-sign-content-gp {
+  flex-direction: row;
+}
+
+.sell-house-form-sign-info-button-gp {
+  flex: 1;
+  flex-direction: column;
+  width: 60%;
+}
+
+.sell-house-form-sign-info {
+  font-size: 14px;
+}
+
+.sell-house-form-sign-button-div {
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.sell-house-form-sign-button {
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.sell-house-form-signature-display {
+  width: 20vw;
+  min-width: 180px;
+  height: 160px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-house-form-signature-display>img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+.sell-house-form-sign-modal {
+  background: #fff;
+  padding: 30px;
+  width: 80vw;
+  height: 360px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  overflow-y: auto;
+}
+
+.sell-house-form-sign-modal-content-gp {
+  flex-direction: column;
+}
+
+
+
+.sell-house-form-sign-modal-text-gp {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.sign-modal-signature {
+  width: 60vw;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.sell-house-form-sign-button-gp {
+  gap: 20px;
+}
+
+.sell-house-form-sign-submit-button-gp {
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+/* SIGN UP FORM */
+
+.sign-up-div {
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+}
+
+.sign-up-gp {
+  margin: 2% 40%;
+  justify-items: center;
+  width: 340px;
+  min-width: 340px;
+  border: 1px solid gainsboro;
+  padding: 30px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.sign-up-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-up-opt-gp {
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+
+.sign-up-otp-send {
+  padding: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+  width: 120px
+}
+
+.email_otp_modal {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  max-height: 85vh;
+  overflow-y: auto;
+  min-width: 320px;
+}
+
+.signup-email-otp-button-gp {
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+/* Login Form */
+
+.login-div {
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  /* Ensure full viewport height */
+}
+
+.login-gp {
+  margin: 2% 40%;
+  justify-items: center;
+  width: 320px;
+  min-width: 320px;
+  border: 1px solid gainsboro;
+  padding: 30px;
+  border-radius: 6%;
+  font-size: 12px;
+}
+
+
+.login-option-gp {
+  justify-content: space-evenly;
+}
+
+.login-option-button {
+  font-size: 12px;
+}
+
+.phone-prefix {
+  padding: 8px 0px;
+}
+
+.login-phone-input {
+  width: 230px;
+}
+
+.login-email-input {
+  width: 260px;
+}
+
+.log-in-otp-send-gp {
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+
+.login-otp-input {
+  height: 40px;
+  width: 160px;
+  padding-top: 15px;
+}
+
+.login-otp-send-button {
+  padding: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+  width: 120px
+}
+
+.login-button-gp {
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1248px) {
+
+
+  /* LIST CARD GRID STYLE */
+
+  .listing-grid-window-pc {
+    display: none;
+  }
+
+  .listing-grid-window-pad-large {
+    display: flex;
+    margin: auto;
+  }
+
+
+
+  /*  LIST DISPLAY ROW STYLE */
+
+  .list-table-row-badge {
+    font-size: 10px;
+  }
+
+  /* CHAT PAGE STYLE */
+
+  .chat-pre-offer-notice-card {
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* NAV BAR STYLE */
+  .nav-bar-button-row {
+    display: none;
+  }
+
+
+  .nav-bar-menu {
+    display: flex;
+    position: relative;
+  }
+
+  .nav-bar-menu-button {
+    padding: 10px;
+  }
+
+  .nav-bar-menu-gp {
+    position: absolute;
+    /* Absolutely position relative to the nearest positioned ancestor */
+    top: 100%;
+    /* Position it right below the button */
+    transform: translateX(-50%);
+    /* Shift it back by its own half-width */
+    /* Or any other background */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for a dropdown effect */
+    z-index: 1;
+    /* Ensure it's on top of other elements */
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 3px;
+    margin-top: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .nav-bar-menu-item {
+    margin-bottom: 2px;
+  }
+
+  .nav-bar-menu-gp a {
+    text-decoration: none;
+    display: block;
+    /* Stack them vertically */
+    color: black;
+    /* Text color */
+  }
+
+  .nav-bar-menu-gp a:hover {
+    background-color: #ddd;
+    /* Hover effect */
+  }
+
+  /* SEARCH BAR STYLE */
+
+  .check-box-field {
+    justify-content: center;
+    position: relative;
+  }
+
+  .district-checkbox-card {
+    width: 500px;
+  }
+
+
+  .search-region-fieldset {
+    width: 460px;
+  }
+
+  .search-region-checkbox {
+    font-size: 12px;
+  }
+
+  .search-input {
+    width: 300px;
+  }
+
+
+  /*   FILTER BAR STYLE */
+
+  .filter-button-display {
+    display: none !important;
+  }
+
+  .filter-menu {
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .filter-menu-button {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+  }
+
+  .filter-menu-card {
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    top: 100%;
+    padding: 8px 3px
+  }
+
+  .filter-menu-card-content {
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    gap: 0;
+  }
+
+  .filter-menu-checkbox-card {
+    left: 100px;
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    top: 100%;
+    padding: 8px 3px;
+  }
+
+  .filter-menu-checkbox-gp {
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    gap: 0;
+  }
+
+  .filter-menu-checkbox-gp>div {
+    padding: 7px 3px;
+  }
+
+
+  .filter-menu-range-card {
+    left: 100px;
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    top: 100%;
+    padding: 8px 40px;
+  }
+
+  .filter-menu-range-gp {
+    align-content: center;
+  }
+
+  .filter-menu-range-gp>div {
+    margin-bottom: 2px;
+  }
+
+  .filter-menu-item {
+    padding: 5px 0;
+  }
+
+  .filter-menu-item:hover {
+    background-color: #dddddd81;
+    cursor: pointer;
+  }
+
+
+
+
+
+  /* .filter-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    justify-content: space-between;
+  }
+ */
+
+
+  /* HOME PAGE LIST GRID */
+
+  .listing-grid-window-pc {
+    display: none;
+  }
+
+  .listing-grid-window-pad-large {
+    display: none;
+  }
+
+  .listing-grid-window-pad {
+    display: flex;
+    margin: auto;
+  }
+
+
+  /*   LIST ROW DISPLAY STYLE */
+
+
+  .list-table-row {
+    width: 100%;
+    background-color: white;
+    direction: row;
+    border: 1px solid rgb(241, 240, 240);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .list-table-row-cell {
+    width: 8%;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .list-table-estate-width {
+    width: 25%;
+  }
+
+  .list-table-body-cell-estate {
+    width: 25%;
+    font-size: 10px;
+    height: auto;
+    padding-top: 3px;
+
+  }
+
+  .list-table-body-cell-estate>div {
+    margin-bottom: 8px;
+  }
+
+
+  .list-table-price-width {
+    width: 14.5%
+  }
+
+  .list-row-price-change-header-gp {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 8%;
+    gap: 3px;
+    font-size: 10px;
+  }
+
+
+  .row-display-list-name-tag {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 400;
+    gap: 10px
+  }
+
+  .list-table-row-badge {
+    font-size: 8px;
+    padding: 4px
+  }
+
+
+
+  /*   FOOTER STYLE */
+
+  .footer-end {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  /*  MY LIST DETAIL STYLE */
+
+  .list-detail-historical-record-gp {
+    width: 420px;
+    overflow-x: scroll;
+  }
+
+  .list-detail-historical-record-table {
+    width: 600px;
+  }
+
+
+  .list-detail-owner-info {
+    width: 200px;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .list-mortgage-chart-result-gp {
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+  .list-mortgage-option-chart-gp {
+    flex-direction: row;
+    gap: 5px
+  }
+
+  .list-mortgage-cal-result-gp {
+    width: 100%;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .list-mortgage-cal-result-item {
+    padding: 10px 20px;
+  }
+
+  /* PRE SELL HOUSE FORM STYLE */
+
+  .pre-sell-house-form-content {
+    padding: 40px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* SELL HOUSE FORM FILL STYLE */
+
+  .sell-house-form-remove-button {
+    font-size: 12px;
+    padding: 8px 6px;
+    width: 60px;
+  }
+
+  .sell-house-form-template-head {
+    font-size: 24px;
+    margin: 10px 20px 0 20px;
+  }
+
+  /* CHAT PAGE STYLE */
+
+  .chat-pre-offer-notice-card {
+    height: 360px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+  /* 
+OFFER CREDIT CARD STYLE */
+
+  .chat-offer-credit-card-input {
+    width: 200px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  /*   HEADTER STYLE */
+
+  .home-top-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  /* NAV BAR STYLE */
+
+  .nav-bar-switch-button {
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 3%;
+  }
+
+
+  .nav-bar-button-row {
+    display: none;
+  }
+
+  .nav-bar-menu {
+    display: flex;
+    position: relative;
+  }
+
+  .nav-bar-menu-button {
+    padding: 10px;
+  }
+
+  .nav-bar-menu-gp {
+    position: absolute;
+    /* Absolutely position relative to the nearest positioned ancestor */
+    top: 100%;
+    /* Position it right below the button */
+    transform: translateX(-50%);
+    /* Shift it back by its own half-width */
+    /* Or any other background */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for a dropdown effect */
+    z-index: 1;
+    /* Ensure it's on top of other elements */
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 3px;
+    margin-top: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .nav-bar-menu-item {
+    margin-bottom: 2px;
+  }
+
+  .nav-bar-menu-gp a {
+    text-decoration: none;
+    display: block;
+    /* Stack them vertically */
+    color: black;
+    /* Text color */
+  }
+
+  .nav-bar-menu-gp a:hover {
+    background-color: #ddd;
+    /* Hover effect */
+  }
+
+
+  /*   SEARCH BAR STYLE */
+
+
+  .search-region-button {
+    margin: 0 !important;
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .check-box-field {
+    justify-content: center;
+    position: relative;
+  }
+
+  .district-checkbox-card {
+    width: 340px;
+  }
+
+
+  .search-region-fieldset {
+    width: 320px;
+  }
+
+  .search-region-checkbox {
+    font-size: 12px;
+  }
+
+  .search-input {
+    width: 120px;
+  }
+
+  .search-button {
+    width: 30px;
+    height: 34px;
+    padding: 3px;
+  }
+
+
+  /*   FILTER BAR STYLE */
+
+
+
+  .filter-button-display {
+    display: none !important;
+  }
+
+  .filter-menu {
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .filter-menu-button {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+  }
+
+  .filter-menu-card {
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    top: 100%;
+    padding: 8px 3px
+  }
+
+  .filter-menu-card-content {
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    gap: 0;
+  }
+
+  .filter-menu-checkbox-card {
+    left: 100px;
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    top: 100%;
+    padding: 8px 3px;
+  }
+
+  .filter-menu-checkbox-gp {
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    gap: 0;
+  }
+
+  .filter-menu-checkbox-gp>div {
+    padding: 7px 3px;
+  }
+
+
+  .filter-menu-range-card {
+    left: 100px;
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    top: 100%;
+    padding: 8px 18px;
+  }
+
+  .filter-menu-range-gp {
+    align-content: center;
+  }
+
+  .filter-menu-range-gp>div {
+    margin-bottom: 2px;
+  }
+
+  .filter-input-range-container {
+    display: flex;
+    flex-direction: row;
+    /* Adjust the spacing as needed */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    height: 30px;
+    width: 160px
+  }
+
+  .filter-range-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+  }
+
+  .filter-input-field {
+    width: 60px;
+    height: 24px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .filter-menu-item {
+    padding: 5px 0;
+  }
+
+  .filter-menu-item:hover {
+    background-color: #dddddd81;
+    cursor: pointer;
+  }
+
+
+
+
+
+  /* LISTING CARD GRID STYLE */
+
+  .listing-grid-window-pc {
+    display: none;
+  }
+
+  .listing-grid-window-pad-pro {
+    display: none;
+  }
+
+  .listing-grid-window-pad {
+    display: none;
+  }
+
+  .listing-grid-window-mobile {
+    display: flex;
+    margin: auto;
+  }
+
+
+  /*   LIST ROW DISPLAY STYLE */
+
+
+  /* .list-table-row {
+    width: 100%;
+    background-color: white;
+    direction: row;
+    border: 1px solid rgb(241, 240, 240);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 2px;
+    height: auto;
+  }
+
+  .list-table-row-cell {
+    width: 8%;
+    background-color: white;
+    text-align: center;
+    font-size: 6px;
+  }
+
+  .list-table-estate-width {
+    width: 25%;
+  }
+
+  .list-table-body-cell-estate {
+    width: 25%;
+    font-size: 6px;
+    height: 80px;
+    padding-top: 3px;
+
+  }
+
+  .list-table-body-cell-estate>div {
+    margin-bottom: 3px;
+  }
+
+
+  .list-table-price-width {
+    width: 14.5%
+  }
+
+  .list-row-price-change-header-gp {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 8%;
+    gap: 3px;
+    font-size: 6px;
+  }
+
+
+  .row-display-list-name-tag {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 400;
+    gap: 4px
+  }
+
+  .list-table-row-badge {
+    font-size: 6px;
+    padding: 4px
+  }
+
+ */
+
+  .list_row_display_gp {
+    display: none;
+  }
+
+  .list-table-row {
+    width: 100%;
+    background-color: white;
+    direction: row;
+    border: 1px solid rgb(241, 240, 240);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .list-table-row-cell {
+    width: 8%;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .list-table-estate-width {
+    width: 25%;
+  }
+
+  .list-table-body-cell-estate {
+    width: 25%;
+    font-size: 10px;
+    height: auto;
+    padding-top: 3px;
+
+  }
+
+  .list-table-body-cell-estate>div {
+    margin-bottom: 8px;
+  }
+
+
+  .list-table-price-width {
+    width: 14.5%
+  }
+
+  .list-row-price-change-header-gp {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 8%;
+    gap: 3px;
+    font-size: 10px;
+  }
+
+
+  .row-display-list-name-tag {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 400;
+    gap: 10px
+  }
+
+  .list-table-row-badge {
+    font-size: 9px;
+    padding: 4px
+  }
+
+
+  /* LIST DETAIL PAGE STYLE */
+
+
+  .list-detail-group {
+    display: flex;
+    margin: 1% 4% 2% 4%;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+
+  /* LISTING DETAIL LEFT GROUP STYLE */
+
+  .list-detail-left-group {
+    flex-direction: column;
+    width: 55vw;
+    height: auto;
+  }
+
+  .listing-back-button-gp {
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8px;
+  }
+
+  .listing-back-button {
+    padding: 0;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+
+  .listing-back-button:hover {
+    background-color: #f2f2f2;
+  }
+
+
+  .list-detail-info-gp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 30px;
+  }
+
+  .list-detail-info-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .list-detail-info-sub-name {
+    font-size: 16px;
+  }
+
+  .list-detail-info-price-gp {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .list-detail-info-price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #CC0000;
+  }
+
+  .list-detail-brief-info-gp {
+    flex-direction: row;
+    gap: 10px;
+    margin: auto
+  }
+
+
+  .list-detail-brief-info-item-title {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 3px;
+  }
+
+  .list-detail-brief-info-item {
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    flex-wrap: wrap;
+  }
+
+
+  .list-detail-unit-info-gp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .list-detail-unit-info-header {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .list-detail-unit-info-item-gp {
+    flex-direction: row;
+    gap: 8%;
+  }
+
+  .list-detail-unit-info-item-title {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 300;
+    gap: 10px;
+  }
+
+  .list-detail-unit-info-item-detail {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 300;
+    gap: 10px;
+  }
+
+  .list-detail-unit-info-item-detail-list {
+    flex-direction: row;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+
+
+  .list-detail-historical-record-gp {
+    margin: 10px 0 20px 0;
+    width: 300px;
+    overflow-x: scroll;
+  }
+
+  .list-detail-historical-record-table {
+    margin-top: 20px;
+    width: 500px;
+
+  }
+
+  .list-detail-historical-record-table-head {
+    font-weight: 400;
+    background-color: #f2f2f2;
+  }
+
+
+  .historical-record-change-gp {
+    color: #CC0000;
+  }
+
+  .historical-record-change-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+  }
+
+
+  /* LISTING DETAIL RIGHT GROUP STYLE */
+
+  .list-detail-right-group {
+    flex-direction: column;
+    width: 25vw;
+    gap: 20px;
+  }
+
+
+
+  .listing-detail-view-like-gp {
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 6px;
+    margin: 10px auto;
+  }
+
+
+
+  .list-detail-image-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: auto;
+    gap: 2px;
+    overflow: hidden;
+    margin: 0px auto 5px auto;
+  }
+
+  .list-detail-image-grid-item {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .list-detail-image-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .list-detail-map {
+    width: 100px;
+    height: 360px;
+    align-content: center;
+  }
+
+
+  .list-detail-seller-card {
+    margin: 2% auto;
+    height: auto;
+    border-radius: 15px;
+    width: 100px;
+    padding: 16px 8px;
+  }
+
+  .list-detail-seller-info-gp {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .list-detail-seller-info {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .list-detail-seller-info img {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .list-detail-seller-info-button-gp {
+    flex-direction: column;
+    gap: 10px
+  }
+
+
+  .list-detail-seller-info-button-appointment {
+    background-color: #ff471a;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
+    border: 0;
+    width: 85px;
+    height: 30px;
+    padding: 4px 8px;
+    margin: 0 auto;
+  }
+
+  .list-detail-seller-info-button-contact {
+    background-color: #FFD700;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
+    border: 0;
+    width: 85px;
+    height: 30px;
+    padding: 4px 8px;
+    margin: 0 auto;
+
+  }
+
+  /*  .list-mortgage-chart-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } */
+
+  .list-mortgage-chart-card {
+    border-radius: 30px;
+    padding: 30px;
+  }
+
+  .list-mortgage-chart-result-gp {
+    flex-direction: column;
+  }
+
+  .list-mortgage-option-chart-gp {
+    flex-direction: column;
+    gap: 5px
+  }
+
+  .list-mortgage-cal-option {
+    flex-direction: column;
+    width: 320px;
+    margin-bottom: 20px;
+  }
+
+  .list-mortgage-cal-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .list-mortgage-cal-item-price-gp {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .list-mortgage-cal-item-short-input {
+    width: 150px;
+    text-align: center;
+  }
+
+  .list-mortgage-cal-item-long-input {
+    width: 250px;
+    text-align: center;
+  }
+
+  .list-mortgage-cal-checkbox-gp {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .list-mortgage-chart {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .list-mortgage-cal-result-gp {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .list-mortgage-cal-result-item {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #ff471a;
+  }
+
+
+  .list-mortgage-cal-remark {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    width: 100%;
+  }
+
+
+  /* MY LISTING DETAIL STYLE */
+
+
+  .my-list-detail-expire-date {
+    font-size: 10px;
+  }
+
+  .my-list-detail-edit-button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .edit-price-input {
+    width: 170px;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+  }
+
+  .edit-image-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: auto;
+    gap: 4px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+
+  .edit-image-grid-item {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+  }
+
+  .list-detail-owner-info {
+    width: 100px;
+    padding: 4px;
+    font-size: 8px;
+  }
+
+
+  /*  MY LISTING PAGE STYLE */
+
+  .my-listing-table-mobile-container {
+    display: block;
+    width: 330px;
+    /* Fixed width of the container */
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    border: 1px solid gainsboro;
+    margin: 30px auto 60px auto;
+  }
+
+  .my-listing-table {
+    flex-direction: column;
+    width: 700px;
+    gap: 0;
+  }
+
+  /* LIST CARD COLLECTION STYLE*/
+
+  .list-card-collection {
+    grid-template-columns: 1fr;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .list-collection-number {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10%;
+
+  }
+
+  /*   FAV LIST STYLE */
+
+
+
+  /*   FOOTER STYLE */
+
+
+  .footer-info-button {
+    font-size: 14px;
+  }
+
+  .footer-end {
+    padding: 20px 30px
+  }
+
+  .footer-end-text {
+    width: 240px
+  }
+
+  .footer-end-button-gp {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-end-button {
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  /* PRE SELL HOUSE FORM STYLE */
+
+  .pre-sell-house-form-head {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 20px 0 20px;
+
+  }
+
+  .pre-sell-house-form-content {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /*   SELL HOUSE FORM fill */
+
+  .sell-house-form-fill {
+    font-size: 8px;
+  }
+
+  .sell-house-form-remove-button {
+    font-size: 10px;
+    padding: 8px 6px;
+    width: 80px;
+  }
+
+  .sell-house-formfill-main-title {
+    font-size: 18px;
+  }
+
+  .sell-house-formfill-price-input {
+    width: 130px;
+  }
+
+  /* SELL HOUSE FORM 3 TEMPLATE STYLE */
+
+
+
+  .sell-house-form-template-head {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px 20px 0 20px;
+  }
+
+
+  .sell-house-form-template-content-card {
+    font-size: 12px;
+    padding: 20px 20px;
+    margin: 0 5% 2% 5%;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+
+  sub {
+    font-size: 10px;
+    /* Adjust the font size as needed */
+    vertical-align: text-top;
+    /* Optional: Adjusts the vertical position */
+  }
+
+  .sell-house-form-template-notice {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .sell-house-form-template-content-title {
+    flex-direction: row;
+    margin: 10px 0;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+
+  .sell-house-form-template-content-title-notice {
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 3px;
+
+  }
+
+  .sell-house-form-template-content-appointment {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  .sell-house-form-template-content {
+    margin: 10px 0;
+    flex-direction: "row";
+  }
+
+  .sell-house-form-template-content-specified {
+    color: #e3163f;
+    margin: 10px 0;
+  }
+
+  .sell-house-form-template-radio-option-gp {
+    margin: 10px 0;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+
+  .sell-house-form-template-content-option-item {
+    margin: 10px 0;
+    flex-direction: "row";
+    gap: 5px;
+  }
+
+  .sell-house-form-template-addition-content {
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 4px;
+  }
+
+
+  /* SELL FORM SIGN STYLE */
+
+
+
+  .sell-house-form-sign-gp {
+    flex-direction: column;
+    margin: 30px 5%;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .sell-house-form-sign-card {
+    width: 90vw;
+    min-width: 330px;
+    height: 200px;
+    padding: 20px
+  }
+
+  .sell-house-form-sign-content-gp {
+    flex-direction: row;
+  }
+
+  .sell-house-form-sign-info-button-gp {
+    flex: 1;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .sell-house-form-sign-info {
+    font-size: 12px;
+  }
+
+  .sell-house-form-sign-button-div {
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  .sell-house-form-sign-button {
+    width: 60px;
+    height: 40px;
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .sell-house-form-signature-display {
+    width: 20vw;
+    min-width: 180px;
+    height: 160px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sell-house-form-signature-display>img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+
+  .sell-house-form-sign-modal {
+    background: #fff;
+    padding: 20px;
+    width: 80vw;
+    height: 360px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    overflow-y: auto;
+  }
+
+  .sell-house-form-sign-modal-content-gp {
+    flex-direction: column;
+  }
+
+
+
+  .sell-house-form-sign-modal-text-gp {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+    flex-wrap: wrap;
+  }
+
+  .sign-modal-signature {
+    width: 60vw;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sell-house-form-sign-button-gp {
+    gap: 20px;
+  }
+
+  .sell-house-form-sign-submit-button-gp {
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  /* CHAT PAGE STYLE */
+
+  /* MESSENGER GROUP STYLE */
+
+  .messenger-gp {
+    display: none;
+  }
+
+  .messenger-gp-mobile {
+    display: flex;
+    margin: 10px 3%;
+    gap: 5px;
+  }
+
+
+  /* CHAT CONTACT LIST STYLE */
+
+  .chat-list-card-mobile {
+    width: 80vw;
+    height: 600px;
+    border-radius: 20px;
+    margin: 10px auto;
+
+  }
+
+  .chat-search {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .chat-list-item-gp-mobile {
+    width: 100%;
+    border: 0px solid black;
+    height: 80px;
+    margin: 5px auto;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 4px;
+  }
+
+  .chat-list-item-gp-mobile:hover {
+    background-color: #FF6600;
+  }
+
+  .chat-list-item-image-mobile {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .chat-list-item-info-gp-mobile {
+    flex-direction: column;
+    width: 70%;
+    gap: 0;
+    padding: 4px;
+  }
+
+  .chat-list-item-content-gp-mobile {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 4px 0 4px;
+  }
+
+
+
+
+
+
+  /* CHAT MAIN CARD STYLE */
+
+  .chat-message-board-card-mobile {
+    width: 100%;
+    height: 800px;
+    border-radius: 20px;
+  }
+
+
+  /* CHAT RECEIVER INFO STYLE */
+
+  .chat-receiver-info {
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  .chat-receiver-info-name-gp {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chat-assist-question-button {
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+  }
+
+  .chat-assist-question-button:hover {
+    background-color: #FF6600;
+  }
+
+  .chat-assist-question-button:focus {
+    background-color: white;
+  }
+
+
+  /* CHAT QUESTION SUPPORT MODAL STYLE */
+
+  .chat-assistance-modal {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    height: 600px;
+    overflow-y: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .chat-assist-question-gp {
+    flex-direction: column;
+    padding: 10px 6%;
+    gap: 12px;
+  }
+
+  .chat-assist-question-head {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff471a;
+    text-align: center;
+  }
+
+  .chat-assist-question-item-button {
+    font-size: 14px;
+    border: 1px solid #ff471a;
+    color: #ff471a;
+    border-radius: 15px;
+    width: 320px;
+  }
+
+  /* CHAT APPOINTMENT OFFER BUTTON GROUP MOBILE */
+
+  .chat-appointment-offer-button-gp {
+    flex-direction: row;
+    margin: 8px 0;
+  }
+
+  /* CHAT MESSAGE BOARD STYLE */
+
+  .chat-message-board {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    height: 80%;
+    border-radius: 15px;
+
+  }
+
+  .chat-message-notice {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    height: 12%;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1% 10% 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .chat-message-text-gp {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .chat-message-receiver-text-box {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 6px 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    max-width: 60%;
+    height: auto;
+  }
+
+  .chat-message-board-receiver-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .chat-message-my-text-div {
+    justify-content: flex-end;
+  }
+
+  .chat-message-my-text-box {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 6px 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    max-width: 60%;
+    height: auto;
+  }
+
+
+  /* MESSAGE SEND SECTION */
+
+  .chat-message-send-section {
+    flex-direction: row;
+    margin: 10px 0;
+    gap: 5px;
+  }
+
+  .message-send-add-file-button {
+    border: 0;
+    padding: 2%;
+  }
+
+  /* CHAT PROPERTY STYLE */
+
+  .chat-property-info-card {
+    width: 20vw;
+    max-height: 600px;
+    border-radius: 20px;
+  }
+
+  .chat-property-gp {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .chat-property-image {
+    height: 200px;
+    border-radius: 15px;
+  }
+
+  .chat-property-name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .chat-property-brief {
+    font-size: 14px;
+  }
+
+  .chat-property-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #CC0000;
+  }
+
+  .chat-property-appointment-button {
+    width: 100%;
+    color: #3399ff;
+    border: 1px solid #3399ff;
+  }
+
+  .chat-property-offer-button {
+    width: 100%;
+    color: #ff471a;
+    border: 1px solid #ff471a;
+  }
+
+
+
+  /* CHAT APPOINTMENT STYLE */
+
+  .chat-make-appointment-modal {
+    background: #fff;
+    padding: 30px;
+    width: 80vw;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  .chat-make-appointment-gp {
+    flex-direction: column;
+    padding: 3% 5%;
+  }
+
+  .chat-make-appointment-head {
+    color: #3399ff;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .chat-make-appointment-button-gp {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 25%;
+    font-size: 14px;
+  }
+
+  .chat-make-appointment-button-accept {
+    background-color: #FF6600;
+    color: white;
+  }
+
+
+
+
+  .amplify-checkbox__icon {
+    background-color: #FF6600;
+    border-color: black;
+  }
+
+
+  /* PRE-OFFER NOTICE STYLE */
+
+
+  .chat-pre-offer-modal {
+    background: #fff;
+    padding: 30px;
+    width: 80vw;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    height: 600px;
+    overflow-y: auto;
+  }
+
+  .chat-pre-offer-notice-gp {
+    flex-direction: column;
+  }
+
+  .chat-pre-offer-notice-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .chat-pre-offer-notice-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .chat-pre-offer-notice-card {
+    width: 100%;
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+  .chat-pre-offer-notice-content-title {
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+  }
+
+  .chat-pre-offer-notice-content-title-number {
+    border: 2px solid;
+    padding: 2px 6px;
+  }
+
+  .chat-pre-offer-notice-content {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px
+  }
+
+  .chat-pre-offer-notice-content-remark {
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px
+  }
+
+  .chat-pre-offer-notice-remark {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .chat-pre-offer-notice-button-gp {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+
+  .chat-pre-offer-notice-button-accept {
+    background-color: #FF6600;
+    color: white;
+  }
+
+
+  .modal-content {
+    background: #fff;
+    padding: 30px;
+    width: 80vw;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+
+
+  /* OFFER FORM STYLE */
+
+
+  .chat-offer-modal {
+    background: #fff;
+    padding: 30px;
+    width: 80vw;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    height: 600px;
+    overflow-y: auto;
+  }
+
+  .chat-offer-gp {
+    flex-direction: column;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 40px;
+  }
+
+  .chat-offer-heading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #FF6600;
+    ;
+  }
+
+  .chat-offer-item-gp {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .chat-offer-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .chat-offer-toggle-button-gp {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .chat-offer-toggle-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+
+  .chat-offer-counter-price-input {
+    margin-top: 10px;
+    width: 150px;
+  }
+
+  .chat-offer-remark {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+
+  .chat-offer-content {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .chat-offer-other-input {
+    width: 100px;
+  }
+
+
+  /* 
+OFFER CREDIT CARD STYLE */
+
+  .chat-offer-credit-card-gp {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .chat-offer-credit-card-head {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .chat-offer-credit-card-info-gp {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    gap: 20px
+  }
+
+  .chat-offer-credit-card-info {
+    flex-direction: column;
+  }
+
+  .chat-offer-credit-card-input {
+    width: 200px;
+  }
+
+
+
+}
+
+
+
+
+/* ADMIN PENDING LIST STYLE */
+
+
+.filter_price_button {
+  height: 40px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.admin_pending_list_gp {
+  margin: 10vh 10vw;
+}
+
+.admin_pending_list_sortField-gp {
+  justify-content: space-between;
+}
+
+.admin_pending_list_sortField {
+  justify-content: space-evenly;
+}
+
+
+.pending_list_table_row {
+  width: 1400px;
+  background-color: white;
+  display: flex;
+  direction: row;
+  border: 1px solid rgb(229, 229, 229);
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+
+
+.pending_list_table_estate {
+  width: 120px;
+  background-color: white;
+  text-align: center;
+}
+
+.pending_list_table_district {
+  width: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+.pending_list_table_price {
+  width: 200px;
+  background-color: white;
+  text-align: center;
+}
+
+.pending_list_table_createdAt {
+  width: 150px;
+  background-color: white;
+  text-align: center;
+}
+
+.pending_list_table_status {
+  width: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+.pending_list_table_adsNumber {
+  width: 200px;
+  background-color: white;
+  text-align: center;
+}
+
+
+/* PENDING LISTING DETAIL PAGE STYLE */
+
+
+.pending-listing-detail-gp {
+  margin: 1% 1%;
+}
+
+.pending-listing-info-gp {
+  padding: 3% 5%;
+  width: 50vw;
+}
+
+.pending-listing-topback-button {
+  border: 0;
+  width: 5vw;
+  padding: 1%;
+}
+
+.pending-listing-detail-title {
+  background-color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2%;
+}
+
+.pending-listing-detail-info {
+  gap: 15vw;
+}
+
+.pending-listing-detail-item {
+  font-size: 18px;
+  gap: 3vh;
+}
+
+.pending-listing-detail-data {
+  font-size: 17px;
+  gap: 3vh;
+}
+
+.pending-listing-detail-input {
+  height: 38px;
+  padding: 5% 3%;
+}
+
+.pending-listing-detail-location-input-gp {
+  justify-content: space-evenly;
+  font-size: 17px;
+
+}
+
+.pending-listing-detail-location-input {
+  width: 25%;
+}
+
+
+.pending-listing-owner-card {
+  width: 25vw;
+  padding: 2%;
+}
+
+.pending-listing-owner-info-gp {
+  gap: 5vw;
+}
+
+.pending-listing-pic-gp {
+  background-color: aliceblue;
+  padding: 2%;
+  width: 40vw;
+}
+
+
+.pending-lisitng-bottom-gp {
+  justify-content: space-between;
+  padding: 1% 8%;
+}
+
+.pending-listing-approval-gp {
+  gap: 5vw;
+}
+
+.approval-modal {
+  background: #fff;
+  padding: 30px;
+  width: 40vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  max-height: 85vh;
+  overflow-y: auto;
+}

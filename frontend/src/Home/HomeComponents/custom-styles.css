@@ -1,0 +1,436 @@
+/* HOME HEADER STYLE */
+
+.home-header {
+  flex-direction:row; 
+  width:95%;
+  justify-content: space-between;
+ margin-top:1%;
+  height:50px
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.home-top-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-user-info{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-user-icon{
+  height: 40px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.home-user-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* HOME NAVBAR STYLE */
+
+.nav-bar{
+ margin-top: 1%;
+ flex-direction: row;
+ width: 95%;
+ justify-content: space-between;
+}
+
+.nav-bar-button-row {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+
+.nav-bar-switch-button{
+  width:120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 3%;
+
+}
+
+.nav-bar-arrow {
+  color: #e3163f;
+}
+
+.nav-bar-button{
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* MAP STYLE */
+
+.map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:600px;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 50px;
+}
+
+
+/* SEARH BAR STYLE */
+
+.search-bar{
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+}
+
+.search-bar button{
+margin:0 !important;
+}
+
+.search-region{
+  margin: 0 !important;
+}
+
+.search-input {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 !important;
+  padding: 5px;
+  width:400px;
+}
+
+.search-button{
+  color: white;
+  background-color:  #ff471a;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* FILTER BAR STYLE */
+
+.filter-bar {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3% 5%;
+}
+
+.filter-condition {
+  display: flex !important;
+}
+
+.filter-menu {
+  display: none !important;
+}
+
+
+.filter-button{
+  border-radius: 20%;
+  padding:8px;
+}
+
+.filter-item{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.filter-item-icon{
+  margin-left: 8px;
+}
+
+.filter-save{
+  border: 0;
+}
+
+.filter-format{
+  gap: 0;
+}
+
+.list-style{
+  border:0;
+}
+
+
+
+/* LISTING COLLECTION STYLE */
+
+
+
+.list-collection-number{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left:10%;
+
+}
+
+.list-card-collection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+  margin: 0% 10%;
+}
+
+.amplify-pagination {
+  --amplify-components-pagination-current-background-color: var(
+    --amplify-colors-red-60
+  );
+  --amplify-components-pagination-current-font-size:20px;
+  --amplify-components-pagination-item-shared-min-width: 50px;
+}
+
+
+
+/* LISTING CARD STYLE */
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-card{
+  max-width: 300px;
+  width: 100%;
+  height:auto;
+  padding:0;
+  margin-top: 5% ;
+}
+
+.list-card-info{
+flex-direction: column;
+align-items: flex-start;
+height: 100%;
+justify-content: space-between;
+gap:10px;
+}
+
+.list-card-info-name{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
+  font-weight: 800;
+  margin-left: 5%;
+}
+
+.list-card-floor{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.list-card-info-brief{
+  flex-direction: row;
+  width:100%;
+  gap:2vw;
+  margin: 0 5% 0 5%;
+}
+
+.list-card-info-brief-item{
+  align-items: center;
+  gap: 4px;
+}
+
+.list-card-info-brief-item-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+
+.list-card-info-price{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: 800;
+color:#CC0000 ;
+margin-left: 5%;
+}
+
+.list-card-info-price-fleet{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+.list-card-info-remark{
+  width: 90%;
+  margin-left: 4%;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.list-card-info-remark-gp{
+  flex-direction: column;
+  gap:6px;
+}
+
+.list-card-info-rate{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 12px;
+ font-weight: 300;
+ color:white;
+ border-radius: 5px;
+ background-color: #FF6600;
+ gap: 3px;
+ width: 60px;
+}
+
+.list-card-info-like{
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  gap:8px;
+  align-items: center;
+}
+
+.list-card-info-heart{
+  color:#ab3b57;
+}
+
+.list-card-ads-info{
+  background-color: #f2f2f2;
+  width: 100%;
+  height:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:3px;
+}
+
+.list-card-ads-info-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+/* FAVOURITE LIST STYLE */
+
+.fav-list{
+flex-direction: column;
+margin: 3% 10%;
+}
+
+.fav-list-header{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fav-list-header-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.fav-list-header-more{
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.fav-list-collection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+
+/* FOOTER STYLE */
+
+.footer-gp{
+flex-direction: column;
+width: 100%;
+}
+
+.footer-info{
+  background-color: #f2f2f2;
+  padding:10vh;
+  height:120px;
+}
+
+.footer-info-button{
+  border: 0;
+}
+
+.footer-info-end{
+  flex-direction: row;
+  
+}
+
+.footer-end{
+  padding:20px 40px;
+  justify-content: space-between;
+}
+
+.footer-end-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+
+.footer-end-button{
+  border:0;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+
+  .filter-condition {
+    display: none !important;
+  }
+
+  .filter-menu {
+    display: flex !important;
+  }
+  
+ .filter-item{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+
+  .list-card-collection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fav-list-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .list-card-collection {
+    grid-template-columns: 1fr;
+  }
+
+  .fav-list-collection{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
