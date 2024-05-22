@@ -1,6 +1,6 @@
 Real Estate Trading Platform
 Overview
-This project is a demo of a real estate trading platform featuring online agent agreement signing and a direct chat function for buyers and sellers. The frontend UI demo is partially functional and available at Demo Link. The backend services are not hosted.
+This project is a demo of a real estate trading platform featuring online agent agreement signing and a direct chat function for buyers and sellers. The frontend UI demo is partially functional and available at Demo Link (http://react-app-bucket-deploy.s3-website.ap-east-1.amazonaws.com/). The backend services are not hosted.
 
 Backend Services
 Two main services are implemented using Express.js:
