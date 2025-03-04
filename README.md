@@ -1,6 +1,6 @@
 Real Estate Trading Platform
 Overview
-This project is a demo of a real estate trading platform featuring online agent agreement signing and a direct chat function for buyers and sellers. The frontend UI demo is partially functional and available at Demo Link (http://react-app-bucket-deploy.s3-website.ap-east-1.amazonaws.com/). The backend services are not hosted.
+This project is a demo of a real estate trading platform featuring online agent agreement signing and a direct chat function for buyers and sellers. 
 
 Backend Services
 Two main services are implemented using Express.js:
@@ -37,26 +37,6 @@ Auth:
 Backend generate JWT access token and UUID refresh token.
 Response by http cookie / direct jwt in local storage.
 
-Listing Display:
-
-Home Page: Displays listings in either card grid or list table format.
-Filtering and Sorting: Filters and sort options are handled via state and passed to the SearchFilter component.
-Data Fetching: Uses useEffect to fetch data based on filter state changes.
-Listing Detail:
-
-Photo Display: Main photo can be changed by clicking thumbnails.
-Chat Feature: "預約睇樓" button redirects to a responsive chat page. Chat functionality uses GraphQL mutation and subscription (currently stopped).
-Agent Agreement: "直接聯絡" button redirects to the agent agreement signing page. Users can review, sign, and download the agreement.
-Post Listing:
-
-Upload Listing: "我想賣樓" button redirects to the upload page. Users must agree to terms before submitting their listing, which redirects to the agreement signing page.
-My Listing:
-
-Manage Listings: "我的放盤" button redirects to the user's listings. Users can edit listings by clicking on "物業名稱" or the "編輯" button.
-Technologies Used
-Frontend: React, AWS AppSync, AWS Amplify, Redux, MUI
-Backend: Node.js, Express.js, MongoDB, PostgreSQL, AWS SNS, AWS SES, Sequelize
-Cloud Services: AWS S3, AWS Lambda, AWS DynamoDB
 
 
 
